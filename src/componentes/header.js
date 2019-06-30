@@ -26,7 +26,7 @@ class Header extends Component {
                 </div>
                 <div className="header-content">
                     <p>Las mejores raquetas para  jugar <span>Tenis </span> </p>
-                    <button>Acerca de nosotros ⟶  </button>
+                    <button>ACERCA DE NOSOTROS ⟶  </button>
                 </div>
             </header>
         );

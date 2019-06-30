@@ -1,8 +1,27 @@
+
+:root {
+  --lime-green: #cbe346;
+  --black-blue: #1e2335;
+  --pale-gray:#f3f4f8;
+  --light-gray: #787878;
+}
 .App {
   text-align: center;
   /* margin-top: -21px; */
 }
-
+button {
+  border-style: solid;
+  border-radius: 2em;
+  border-color: white;
+  background-color: #ffffff00;
+  color: white;
+  padding: 1em 2.5em;
+  font-size: x-small;
+  font-weight: bold;
+}
+h1{
+  font-weight: lighter;
+}
 body {
   margin: 0;
   padding: 0;
@@ -12,7 +31,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+ul{
+  color: white;
+  list-style: none;
+  display: flex;
+}
 
 .header{
   background-image:  url(header.png);
@@ -23,9 +46,6 @@ body {
 
 }
 .header ul{
-  color: white;
-  list-style: none;
-  display: flex;
   justify-content: space-around;
 }
 .header .header-navbar {
@@ -47,34 +67,96 @@ body {
 .header-content{
   color:white;
   font-size: 2.3em;
-  /* width: 65%; */
   margin-top: 5em;
 }
 .header-content p {
-  /* width: 60%; */
+  padding: 0 10px;
 }
 .header-content span {
-  color :#cbe346;
+  color :var( --lime-green);
   font-weight: 800;
 }
-.header-content button {
-  border-style: solid;
-  border-radius: 2em;
-  border-color: white;
-  background-color: #ffffff00;
-  color: white;
-  padding: 1em;
-}
+
 .header-h1{
   color: blueviolet;
 }
+.body {
+  color: var(--black-blue);
+}
+.body .body-content1{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.body .body-content1{
+  background-color: var(--pale-gray);
+}
+.body .body-content1 .card {
+  margin: 0 10px;
+}
+.body .body-content1 h1 {
+  text-align: center;
+}
+.body .body-content1 p {
+  width: initial;
+text-align: center;
+color:var(--light-gray)
+}
+.body .body-content2 {
+  display: inline;
+  
+}
+.body .body-content2_1{
+  display: flex;
+  background-image: url(/static/media/ball.27c3d0b9.png);
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+} 
+.body .body-content2_1 img {
+  width:30%;
+}
+.body-content3{
+  background-image: url(back4.png);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
 
+footer {
+  margin-top: -1em;
+}
+.footer {
+  background-color:  var(--lime-green);
+ 
+}
+.footer .footer-menu{
+ 
+}
+.footer .footer-menu ul {
+  color :var(--black-blue);
+ 
+}
+.footer .footer-social{
+ 
+}
+.footer .footer-social {
 
+}
 
-
-
-
+.bola-footer{
+  
+}
+.footer .footer-bola{
+  display: none;
+}
 /* ---------------------------------------- */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
 /* de 576px o más */
 @media (min-width: 576px){
  .header ul{
@@ -110,13 +192,14 @@ body {
   .header-content{
     width: 65%;
     margin-top: 3em;
-    margin-left: 2.5em;
-   
+    margin-left: 5.5em;
+    text-align: left;
   }
   .header-content p {
-    width: 60%; 
+    width: 500px;
     text-align: left;
     line-height: 1.6;
+    padding: 0 ;
   }
   .header-content button {
     margin-left: auto;
@@ -125,14 +208,75 @@ body {
   .header-h1{
     color: orangered;
   }
+  /* //////////////////////////////////////// */
+  .body {
+    min-height: 50vh;
+    margin-top: -21px;
 }
-.footer {
-  background-color: #cbe346;
+.body p {
+  font-size: 13px;
+    line-height: 1.5;
+  }
+.body .body-content1{
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
-/* de 992px o más */
+.body .body-content1 button {
+  color: var(--black-blue);
+  border-color: var(--black-blue);
+}
+.body .body-content1 .card {
+  margin: 0 10em;
+}
+.body .body-content1 h1 {
+  text-align: left;
+}
+.body .body-content1 p {
+  width: 300px;
+  text-align: left;
+}
+.body .body-content2 {
+  display: flex;
+}
+.body .body-content2_1{
+  width: 33%;
+  height: 70vh;
+} 
 
+.footer {
+  background-color:  var(--lime-green);
+  display: flex;
+  padding: 0 3em;
+  padding-bottom: 1em;
+}
+.footer .footer-menu{
+  padding-top: 2.7em;
+  width:500px;
+}
+.footer .footer-menu ul {
+  color :var(--black-blue);
+  justify-content: space-between;
+}
+.footer .footer-social{
+  width:300px;
+}
+.footer .footer-social {
+  width: 200px;
+  justify-content: space-between;
+}
+.footer .footer-bola{
+  margin-left: auto;
+  margin-top: 3em;
+}
+
+.bola-footer{
+  display: none;
+}
+}
+/* /////////////////////////////////// */
  @media (min-width: 992px){
-  
+   
   .header-h1{
     color: yellow;
   }

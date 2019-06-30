@@ -14,23 +14,26 @@ class Footer extends Component {
             <footer>
                 <div className="footer">
                     <div className="footer-navbar">
-                        <ul>
-                            <il>Inicio</il>
-                            <il>Acerca de Nosotros</il>
-                            <il>Historia</il>
-                            <il>Contacto</il>
-                        </ul>
+                        <div className="footer-menu">
+                            <ul>
+                                <li>Inicio</li>
+                                <li>Acerca de Nosotros</li>
+                                <li>Historia</li>
+                                <li>Contacto</li>
+                            </ul>
+                        </div>
+                        <div className="footer-social">
+                            <ul>
+                                <li><Linkedin /> </li>
+                                <li><Vimeo /></li>
+                                <li><Instagram /></li>
+                                <li><Twitter /></li>
+                                <li><Facebook /></li>
+                                <li className="bola-footer" ><Bola /> </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="footer-social">
-                        <ul>
-                            <il><Linkedin /> </il>
-                            <il><Vimeo /></il>
-                            <il><Instagram /></il>
-                            <il><Twitter /></il>
-                            <il><Facebook /></il>
-                        </ul>
-                    </div>
-                    <div>
+                    <div className="footer-bola">
                         <Bola />
                     </div>
                 </div>
