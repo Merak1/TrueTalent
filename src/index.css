@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  /* margin-top: -21px; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.header{
+  background-image:  url(header.png);
+  width: 100%;
+  min-height:100vh;
+  background-size: cover;
+  background-position-x: -299.2px;
+
+}
+.header ul{
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.header .header-navbar {
+  padding-top: 1.2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .header-menu {
+  /* margin-right: auto;
+  margin-left: 1em;
+  width: 40%; */
+}
+.header .header-language{
+  /* margin-right: 3em;
+  margin-left: auto;
+  width: 10%; */
+}
+
+.header-content{
+  color:white;
+  font-size: 2.3em;
+  /* width: 65%; */
+  margin-top: 5em;
+}
+.header-content p {
+  /* width: 60%; */
+}
+.header-content span {
+  color :#cbe346;
+  font-weight: 800;
+}
+.header-content button {
+  border-style: solid;
+  border-radius: 2em;
+  border-color: white;
+  background-color: #ffffff00;
+  color: white;
+  padding: 1em;
+}
+.header-h1{
+  color: blueviolet;
+}
+
+
+
+
+
+
+/* ---------------------------------------- */
+/* de 576px o más */
+@media (min-width: 576px){
+ .header ul{
+   color: rgb(255, 255, 255);
+ }
+}
+/* de 768px o más */
+@media (min-width: 768px){
+  .header{
+    /* background-size: 100%; */
+    background-position-x: 0;
+  }
+  
+  .header ul{
+    color:white;
+  }
+
+  .header .header-navbar {
+    padding-top: 1.2em;
+    display: flex;
+    justify-content: space-around;
+  }
+  .header .header-menu {
+    margin-right: auto;
+    margin-left: 2em;
+    width: 50%;
+  }
+  .header .header-language{
+    margin-right: 3em;
+    margin-left: auto;
+    width: 10%;
+  }
+  .header-content{
+    width: 65%;
+    margin-top: 3em;
+    margin-left: 2.5em;
+   
+  }
+  .header-content p {
+    width: 60%; 
+    text-align: left;
+    line-height: 1.6;
+  }
+  .header-content button {
+    margin-left: auto;
+    margin-right: 35em;
+  }
+  .header-h1{
+    color: orangered;
+  }
+}
+.footer {
+  background-color: #cbe346;
+}
+/* de 992px o más */
+
+ @media (min-width: 992px){
+  
+  .header-h1{
+    color: yellow;
+  }
+  }
+/* de 1200px o más */
+@media (min-width: 1200px){
+  .header-h1{
+    color: green;
+  }
+  
+  }
