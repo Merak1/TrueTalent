@@ -1,5 +1,6 @@
 {
   "name": "true-talent",
+"homepage" : "http://merak1.github.io/trueTalent",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
