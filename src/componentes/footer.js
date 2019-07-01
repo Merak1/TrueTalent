@@ -29,12 +29,12 @@ class Footer extends Component {
                                 <li><Instagram /></li>
                                 <li><Twitter /></li>
                                 <li><Facebook /></li>
-                                <li className="bola-footer" ><Bola /> </li>
                             </ul>
+                            <Bola className="bola-footer" width={40} height={40} />
                         </div>
                     </div>
                     <div className="footer-bola">
-                        <Bola />
+                        <Bola width={30} height={30} />
                     </div>
                 </div>
 
