@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/trueTalent/static/css/main.cbe6df7d.chunk.css",
+    "main.js": "/trueTalent/static/js/main.f312aafc.chunk.js",
+    "main.js.map": "/trueTalent/static/js/main.f312aafc.chunk.js.map",
+    "runtime~main.js": "/trueTalent/static/js/runtime~main.1021bc42.js",
+    "runtime~main.js.map": "/trueTalent/static/js/runtime~main.1021bc42.js.map",
+    "static/js/2.609907aa.chunk.js": "/trueTalent/static/js/2.609907aa.chunk.js",
+    "static/js/2.609907aa.chunk.js.map": "/trueTalent/static/js/2.609907aa.chunk.js.map",
+    "index.html": "/trueTalent/index.html",
+    "precache-manifest.44f4a7f16a53fa1d307500e04c9ee739.js": "/trueTalent/precache-manifest.44f4a7f16a53fa1d307500e04c9ee739.js",
+    "service-worker.js": "/trueTalent/service-worker.js",
+    "static/css/main.cbe6df7d.chunk.css.map": "/trueTalent/static/css/main.cbe6df7d.chunk.css.map",
+    "static/media/index.css": "/trueTalent/static/media/raqueta.7ae43714.png",
+    "static/media/ball1.png": "/trueTalent/static/media/ball1.20461b6c.png",
+    "static/media/ball2.png": "/trueTalent/static/media/ball2.7bab5040.png",
+    "static/media/ball3.png": "/trueTalent/static/media/ball3.27c3d0b9.png",
+    "static/media/ball4.png": "/trueTalent/static/media/ball4.392b5462.png",
+    "static/media/bola.535e8694.svg": "/trueTalent/static/media/bola.535e8694.svg",
+    "static/media/facebook.49218a7d.svg": "/trueTalent/static/media/facebook.49218a7d.svg",
+    "static/media/instagram.c9b37435.svg": "/trueTalent/static/media/instagram.c9b37435.svg",
+    "static/media/linkedin.1ff8881d.svg": "/trueTalent/static/media/linkedin.1ff8881d.svg",
+    "static/media/twitter.216f5101.svg": "/trueTalent/static/media/twitter.216f5101.svg",
+    "static/media/vimeo.fcca6138.svg": "/trueTalent/static/media/vimeo.fcca6138.svg"
+  }
+}
